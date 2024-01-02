@@ -1,1 +1,79 @@
-<!--test-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>katik segitiga</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/index.js"></script>
+</head>
+
+<body>
+    <header id="nav-bar">
+        <h1> Katik Segitiga</h1>
+    </header>
+
+    <div class="div-tabel">
+        <!--luas segitiga-->
+        <section class="section-tabel">
+            <label for="" id="luas-segitiga" class="label-tabel">Hitung Luas Segitiga</label>
+            <img src="25-dec-23-mridhoinsani/asset/segitiga.png"/>
+            <div class="keterangansegitiga">
+                <p class="keterangan">keterangan</p>
+                <p>L = luas</p>
+                <p>a = panjang alas</p>
+                <p>t = tinggi</p>
+            </div>
+
+            <div class="input">
+                <input type="number" id="input-alas" class="katik-input" placeholder="alas">
+                <input type="number" id="input-tinggi" class="katik-input" placeholder="tinggi">
+            </div>
+
+            <div class="buttons">
+                <button onclick ="hitungLuas()">hitung</button>
+                <button>reset</button>
+            </div>
+
+            <div class="rumus">
+                <p>Rumus</p>
+                <p>L = 1/2 x a x t</p>
+                <a href="https://www.youtube.com/" class="navigation">
+                    <button>penjelasan</button>
+                </a>
+            </div>
+        </section>
+
+        <!--keliling segitiga-->
+        <section class="section-tabel">
+            <label for="" id="keliling-segitiga" class="label-tabel">Hitung Keliling Segitiga</label>
+            <div class="keterangansegitiga">
+                <p class="keterangan">keterangan</p>
+                <p>K = keliling</p>
+                <p>S1 = sisi A</p>
+                <p>S2 = sisi B</p>
+                <p>S3 = sisi C</p>
+            </div>
+
+            <div class="input">
+                <input type="number" id="input-sisi1" class="katik-input" placeholder="sisi1">
+                <input type="number" id="input-sisi2" class="katik-input" placeholder="sisi2">
+                <input type="number" id="input-sisi3" class="katik-input" placeholder="sisi3">
+            </div>
+
+            <div class="buttons">
+                <button onclick="hitungKeliling()">hitung</button>
+                <button>reset</button>
+            </div>
+
+            <div class="rumus">
+                <p>Rumus</p>
+                <p>K = S1 + S2 + S3</p>
+                <a href="" class="navigation">
+                    <button>penjelasan</button>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
