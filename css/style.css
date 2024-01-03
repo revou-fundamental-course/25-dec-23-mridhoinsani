@@ -55,6 +55,7 @@ body {
     border: 1px solid gray;
     width: 300px;
     padding: 20px;
+    margin: 10px;
     border-radius: 10px;
 }
 
@@ -82,8 +83,8 @@ body {
     margin-top: 10px;
 }
 
-button {
-    background-color: rgb(100, 10, 183);
+.tombol {
+    background-color: blueviolet;
     color: white;
     padding: 10px 20px;
     border-radius: 10px;
@@ -91,11 +92,23 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.tombol:hover {
     background-color: rgb(41, 8, 71);
 }
 
-button:active {
+.tombol:active {
     background-color: rgb(16, 1, 31);
     transform: translateY(2px);
+}
+
+/*bagian hasil*/
+.keluaranHasil{
+    width: auto;
+    height: 40px;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    color: black;
+    font-size: xx-large;
+    margin: 10px;
 }
