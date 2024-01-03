@@ -1,13 +1,13 @@
 body{
     
-    /*background-image: url(/25-dec-23-mridhoinsani/asset/neon3.jpg);
+    background-image: url(./neon3.jpg);
     height: 100%;
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    */
-  background: linear-gradient(rgb(2, 2, 69), rgb(107, 4, 136));
+    
+  /*background: linear-gradient(rgb(2, 2, 69), rgb(107, 4, 136));*/
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
